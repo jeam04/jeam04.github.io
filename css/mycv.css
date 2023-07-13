@@ -1,0 +1,89 @@
+body {
+    background-color: #181717;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #e7f0ef;
+}
+
+#banner {
+    background-color: #080808;
+    color: #fcfdfc;
+    padding: 30px;
+    background-image: url("https://tinyurl.com/2eh6cjdy");
+}
+
+#banner a{
+    color: #e7f0ef;
+    color font-size: none;
+}
+
+#menulist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+.menuitem {
+    width : 165px;
+    float : left; 
+    background-color: #176B87;
+    list-style-type: none;
+    margin:4px;
+    padding: 10px;
+    text-align: center;
+    cursor:pointer;
+}
+
+#menulist li a {
+    color: white;
+    text-decoration: none;
+}
+h2 {
+    color: #35A29F;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section-about p {
+    text-align: justify;
+    text-align: center;
+}
+
+#servicelist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+
+.serviceitem {
+    width : 30%;
+    float : left; 
+    background-color: #176B87;
+    list-style-type: none;
+    margin:4px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    cursor:pointer;
+}
+
+#resumelist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+ 
+.resumeitem {
+    width : 30%;
+    float : left; 
+    list-style-type: none;
+    margin:4px;
+    padding: 10px;
+    text-align: left;
+    cursor:pointer;
+}
